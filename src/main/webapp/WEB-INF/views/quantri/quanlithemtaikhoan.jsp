@@ -110,7 +110,7 @@
 						<div class="form-group">
 							<label class="orange-color">Phân quyền:</label><br>
 							<sf:select path="roleid" class="form-control col-md-6 col-sm-12">
-								<sf:options items="${listrole }" itemLabel="name" itemValue="id"></sf:options>
+								<sf:option items="${listrole }" itemLabel="name" itemValue="id"></sf:option>
 							</sf:select>
 							<p id="error_password" style="color: red"></p>
 						</div>
